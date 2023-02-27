@@ -38,5 +38,8 @@ sudo apt upgrade -y
 
 # sh NVIDIA-Linux-x86_64-525.85.05.run
 
+# 使用apt安装NVIDIA headless server驱动
+sudo apt install nvidia-headless-525-server
+
 # 安装pytorch 11.7 cuda
 # pip3 install torch torchvision torchaudio
