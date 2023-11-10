@@ -8,7 +8,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # 下载安装miniconda
-# wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+# wget https://mirrors.bfsu.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
 # bash Miniconda3-latest-Linux-x86_64.sh -b
 # source miniconda3/bin/activate
 # conda init
