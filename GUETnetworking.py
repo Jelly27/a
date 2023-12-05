@@ -24,7 +24,7 @@ def login():
         try:
             r = requests.request("GET", url, params=params)
             requests.get("https://api.day.app/***/实验室网络重连/" +
-                         r.text.strip().replace("/", "\\"))
+                         r.text.strip().replace("/", "\\"), params={"level": "passive"})
         except:
             print('Fail to login!')
     else:
